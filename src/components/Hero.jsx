@@ -37,8 +37,15 @@ const Hero = () => {
                 className="my-2 max-w-xl py-6 font-light tracking-tighter">
                     {HERO_CONTENT}
                 </motion.p>
+                <a 
+                 href="/Pranav_Resume__.pdf" 
+                 download="Pranav_Resume.pdf" 
+                 className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">
+                 <button type="button">Download Resume</button>
+                </a>
               </div>
             </div>
+            
              <div className="w-full lg:w-1/2 lg:p-8">
                <div className="flex justify-center">
                   <motion.img
