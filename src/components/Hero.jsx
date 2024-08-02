@@ -38,8 +38,8 @@ const Hero = () => {
                     {HERO_CONTENT}
                 </motion.p>
                 <a 
-                 href="/Pranav_Resume__.pdf" 
-                 download="Pranav_Resume.pdf" 
+                 href="/Pranav Resume.pdf" 
+                 download="Pranav Resume.pdf" 
                  className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">
                  <button type="button">Download Resume</button>
                 </a>
