@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Hello! I'm Pranav P R, a dedicated engineering student at the Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram, Chennai. With a solid academic foundation and hands-on experience through internships at renowed research institute and leading aerospace company, I've honed my skills in software like MATLAB, Python, Solidworks, and Ansys Fluent & Workbench. My involvement in the Mars Rover Club and various research projects has enhanced my expertise in computational fluid dynamics, control systems, and CAD modeling. I am passionate about continuous learning and professional growth, and I'm excited to share my journey and projects on my personal website. Let's connect and explore the world of mechanical engineering together!  `;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -15,16 +15,16 @@ export const EXPERIENCES = [
     description: `Conducted simulations of an inverted pendulum system using Python and MATLAB, including defining parameters, state space modeling, and solving differential equations. Performed stability analysis of the system using Routh-Hurwitz stability criteria to ensure that the system remains stable under different conditions. Developed and implemented a PID controller to stabilize the inverted pendulum, including tuning the proportional, integral, and derivative gains for optimal system performance.`,
     skills: ["Fusion 360", "Matlab", "Python", "Simulink", "Latex","Literature Review"],
   },
-  {
-    year: "Jan 2024 - March 2024",
-    role: "Intern",
-    company: "Expanse Cosmos Private Limited",
-    description: `Collaborated with a team to develop self-pressurizing propellant systems for producing a 1 kN thrust rocket engine, including conducting flow simulations for 3D CAD models. Developed a MATLAB Simulink model to predict pressure drop across the feed line system and analyze thrust rate over time.`,
-    skills: ["Solidworks", "Ansys Fluent", "Ansys Workbench", "Matlab"],
-  },
+  // {
+  //   year: "Jan 2024 - March 2024",
+  //   role: "Intern",
+  //   company: "Expanse Cosmos Private Limited",
+  //   description: `Collaborated with a team to develop self-pressurizing propellant systems for producing a 1 kN thrust rocket engine, including conducting flow simulations for 3D CAD models. Developed a MATLAB Simulink model to predict pressure drop across the feed line system and analyze thrust rate over time.`,
+  //   skills: ["Solidworks", "Ansys Fluent", "Ansys Workbench", "Matlab"],
+  // },
   {
     year: "Dec 2023 - Jan 2024",
-    role: "Industrial Internhip Trainee",
+    role: "Industrial Internship Trainee",
     company: "Aerospace Division, Hindustan Aeronautics Limited.",
     description: `Got a Real-time Exposure in Realization of Parts for Rocket Structures like PSLV, GSLV MKII, MKIII. Closely worked with Quality Control Manager (MKIII Department) to inspect the Strap on base Shroud Structures, Nose-cone Adaptor of GSLV MKIII as per the Engineering Drawings. Documented the errors present in the workings and submitted as a SNAG sheet to implement the process of rework.`,
     skills: ["Quality Control", "Engineering Drawing", "AS9100D"],
@@ -35,6 +35,13 @@ export const EXPERIENCES = [
     company: "IIITDM Kancheepuram, Chennai.",
     description: `Investigated shock wave occurrence in supersonic nozzles under Dr. Jayavel S's guidance, contributing to the optimization of rocket nozzle systems. Developed a 2D computational domain based on experimental test nozzles and performed Computational Fluid Dynamics (CFD) analysis to study shock wave effects on rocket engine performance, including validation with experimental results. Conducted a grid independence test for the 2D computational domain and evaluated CFD simulations for different Nozzle Pressure Ratios (NPR), comparing them with experimental data. Proposed a new second throat nozzle design and studied its impact on flow separation in Converging-Diverging (CD) nozzles. Developed a Python program to solve compressible flow relations, including normal shock, isentropic flow, and oblique shock relations, and prepared a manuscript titled "Effects of Second Throat in Converging Diverging Supersonic Nozzle".`,
     skills: ["Ansys Fluent", "ICEM CFD", "Proptools(Python)", "Solidworks", "Literature Review", "Origin pro"],
+  },
+  {
+    year: "March 2023 - Aug 2023",
+    role: "Research Project Member",
+    company: "Space Generation Advisory Council, Small Satellites Project Group.",
+    description: `Completed literature analysis on the effects of winds on small satellite observation and documented the findings. Generated the mass and cost budgets for a 6U Cube-Sat and developed its CAD model, including conducting initial structural analysis.`,
+    skills: ["Literature review", "Python", "Ansys Workbench", "Solidworks"],
   },
   {
     year: "Aug 2022 - Aug 2023",
@@ -79,5 +86,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Ashwatha Hostel, Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram, Chennai.",
   phoneNo: "+91 9488572668",
-  email: "me21b1064@iiitdm.ac.in",
+  email: "pranaviiitdm03@gmail.com",
 };
