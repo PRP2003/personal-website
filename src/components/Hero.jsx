@@ -38,7 +38,7 @@ const Hero = () => {
                     {HERO_CONTENT}
                 </motion.p>
                 <a 
-                 href="/Pranav Resume.pdf" 
+                 href="/Pranav CV_.pdf" 
                  download="Pranav Resume.pdf" 
                  className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">
                  <button type="button">Download Resume</button>
