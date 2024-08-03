@@ -24,7 +24,6 @@
 //     );
 //   };
 
-// export default Navbar;
 import React from 'react';
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 import logo from "../assets/kevinRushLogo.png";
@@ -38,8 +37,8 @@ const Navbar = () => {
             <div className="m-8 flex items-center justify-center gap-4 text-2xl">
                 <a href="https://www.linkedin.com/in/pranavpr03/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                 <a href="https://github.com/PRP2003" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-                <a href="https://www.instagram.com/yourinstagram/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
                 <a href="https://x.com/PranavR32984964" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+                <a href="https://www.instagram.com/yourinstagram/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
             </div>
         </nav>
     );
@@ -59,6 +58,12 @@ const Introduction = () => {
             <div className="mt-8 flex justify-center space-x-4">
                 <button className="bg-gradient-to-r from-purple-400 to-purple-600 text-white px-6 py-3 rounded-full">Say Hello</button>
                 <button className="border border-gray-300 px-6 py-3 rounded-full">My Portfolio</button>
+                <a 
+                    href="/Pranav CV_.pdf" 
+                    download="Pranav Resume.pdf" 
+                    className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">
+                    <button type="button">Download Resume</button>
+                </a>
             </div>
         </div>
     );
@@ -74,4 +79,5 @@ const App = () => {
 };
 
 export default App;
+
 
