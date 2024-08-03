@@ -60,13 +60,13 @@ export const PROJECTS = [
       "Conducted a computational study of a 2D converging-diverging supersonic nozzle with divergent angles of 5, 7, 10, 13, and 15 degrees, using gases produced by liquid oxygen and liquid propane. The study utilized CANTERA software for gas properties, finding that a 15-degree angle showed good performance without shock waves. Various contour and plot results (pressure, velocity, Mach number, temperature) were generated for all six cases.",
       skills: ["Solidworks", "Ansys Fluent", "Ansys Workbench", "ICEM CFD", "Proptools(Python)"],
   },
-  // {
-  //   title: "Task Management App",
-  //   image: project2,
-  //   description:
-  //     "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-  //     skills: ["HTML", "CSS", "Angular", "Firebase"],
-  // },
+  {
+    title: "Acrylic Sheet Smartphone Stand ",
+    image: project2,
+    description:
+      "Led a team of 5 members and manufactured 100+ Phone Stand using Acrylic Sheet for presenting as a Gift for Alumni as part of 6th Alumni meet and 10th Convocation of our institute.",
+      skills: ["Autodesk AutoCAD", "CSSLaser - Beam Machining", "Bending"],
+  },
   // {
   //   title: "Portfolio Website",
   //   image: project3,
