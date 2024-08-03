@@ -38,7 +38,7 @@ const Navbar = () => {
                 <a href="https://www.linkedin.com/in/pranavpr03/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                 <a href="https://github.com/PRP2003" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                 <a href="https://x.com/PranavR32984964" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-                <a href="https://www.instagram.com/yourinstagram/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                <a href="https://www.instagram.com/pranav_p_r_03/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
             </div>
         </nav>
     );
@@ -47,22 +47,22 @@ const Navbar = () => {
 const Introduction = () => {
     return (
         <div className="text-center">
-            <div className="flex justify-center space-x-4">
+            {/* <div className="flex justify-center space-x-4">
                 <a href="https://www.linkedin.com/in/pranavpr03/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                 <a href="https://github.com/PRP2003" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                 <a href="https://x.com/PranavR32984964" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-                <a href="https://www.instagram.com/yourinstagram/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-            </div>
-            <h1 className="text-4xl font-bold mt-4">Hey there,<br />It's Pranav P R.</h1>
-            <p className="mt-4 text-xl max-w-2xl mx-auto">Welcome to my creative corner! I'm Pranav P R, a passionate Mechanical Engineering student with hands-on experience in simulations, stability analysis, and CAD modeling. Join me as I explore the fascinating world of mechanical engineering.</p>
+                <a href="https://www.instagram.com/pranav_p_r_03/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            </div> */}
+            <h1 className="text-4xl font-bold mt-4"> 👋🏽 Hey there,<br />It's Pranav P R.</h1>
+            <p className="mt-4 text-xl max-w-2xl mx-auto">Welcome to my personal portfolio website! </p>
             <div className="mt-8 flex justify-center space-x-4">
-                <button className="bg-gradient-to-r from-purple-400 to-purple-600 text-white px-6 py-3 rounded-full">Say Hello</button>
+                {/* <button className="bg-gradient-to-r from-purple-400 to-purple-600 text-white px-6 py-3 rounded-full">Say Hello</button> */}
                 {/* <button  */}
                 <a 
                     href="/Pranav CV_.pdf" 
                     download="Pranav Resume.pdf" 
-                    className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">
-                    <button className="border border-gray-300 px-6 py-3 rounded-full">Download Resume</button>
+                    className="mt-4  inline-block bg--500 text-white py-1 px-4 rounded-full">
+                    <button className="border bg-gradient-to-r from-purple-400 to-purple-600 border-gray-300 px-6 py-3 rounded-full">Download Resume</button>
                 </a>
                 {/* >My Portfolio</button> */}
                 

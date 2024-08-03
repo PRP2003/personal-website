@@ -37,12 +37,12 @@ const Hero = () => {
                 className="my-2 max-w-xl py-6 font-light tracking-tighter">
                     {HERO_CONTENT}
                 </motion.p>
-                <a 
+                {/* <a 
                  href="/Pranav CV_.pdf" 
                  download="Pranav Resume.pdf" 
                  className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">
                  <button type="button">Download Resume</button>
-                </a>
+                </a> */}
               </div>
             </div>
             
